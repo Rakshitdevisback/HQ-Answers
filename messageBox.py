@@ -3,7 +3,7 @@ import discord
 
 class MessageBox:
     def __init__(self):
-        self.embed = discord.Embed(title='HQ Crowdsourced Answers')
+        self.embed = discord.Embed(title='Rakshit[Dev]™#0084 ||Hq Answers')
         self.discordMsg = None  # Stores the discord message object, so we can edit the msg
 
     async def resetEmbed(self, channel: discord.TextChannel, question: str, answers: list):
